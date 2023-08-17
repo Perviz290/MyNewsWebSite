@@ -1,0 +1,64 @@
+
+body{
+    margin: 0;
+    padding: 0%;
+    font-family: sans-serif
+}
+ 
+.container{
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+   
+}
+
+.post{
+    width: 47%;
+    overflow: hidden;
+
+   float: left;
+   margin: 10px; 
+   box-shadow: 0 0 10px black;
+}
+
+.post img{
+    width: 100%;
+    height: 280px; ;
+}
+.post h2{
+    margin: 0;
+    padding: 0% 10px;
+}
+.post p{
+    padding: 0 10px;
+}
+.post a{
+    padding: 0 10px;
+}
+
+
+
+header {
+    background-color: #4384b1;
+    width: 100%;
+    display: inline-block;
+}
+.menu {
+    float: right;
+    color: #4384b1;
+ 
+}
+.kutu {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    padding: 7px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
