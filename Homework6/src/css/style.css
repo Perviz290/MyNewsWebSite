@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-contact {
+    display: flex;
+    padding: 10px 0px;
+    border: 1px solid #7E7E7E;
+}
+
+.header-contact .contact-left {
+    padding: 0px 12px;
+    width: 50%;
+}
+
+.contact-left a {
+    text-decoration: none;
+    color: #7E7E7E;
+    font-size: 13px;
+    margin-right: 10px;
+
+}
+
+.header-contact .contact-right {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    width: 50%;
+    padding: 0px 12px;
+}
+
+.contact-right h4 {
+    color: #7E7E7E;
+    font-size: 13px;
+
+}
+
+.contact-right select {
+    color: #7E7E7E;
+    font-size: 13px
+}
+
+.contact-right .color-h4 {
+    color: #3bb77e;
+    margin-right: 10px;
+}
+
+
+.header-search {
+    display: flex;
+    padding: 30px 12px;
+    border: 1px solid #7E7E7E;
+}
+
+.header-search .logo {
+    width: 20%;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.header-search .search-bar {
+    width: 40%;
+}
+
+.search-bar input {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    padding-left: 10px;
+    border: 1px solid #3bb77e;
+    border-radius: 10px;
+}
+
+.header-search .login-all {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.login-all .logo-a {
+    padding: 0 10px;
+}
+
+.login-all .logo-a a {
+    text-decoration: none;
+    color: #7E7E7E;
+    font-size: 16px;
+}
+
+.login-all .logo-b a {
+    text-decoration: none;
+    color: #7E7E7E;
+    font-size: 16px;
+}
+
+
+.header-navbar {
+    display: flex;
+    padding: 10px 12px;
+    border: 1px solid #7E7E7E;
+}
+
+.header-navbar .all-categories {
+    width: 20%;
+    margin-top: 9px;
+}
+
+.all-categories a {
+    text-decoration: none;
+    padding: 15px 50px;
+    background-color: #3bb77e;
+    border-radius: 10px;
+    line-height: 44px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #3bb77e;
+}
+
+.header-navbar .navbar-all {
+    display: flex;
+    width: 60%;
+
+}
+
+.navbar-all .navbar {
+    margin-right: 10px;
+    margin-top: 21px;
+
+}
+
+.navbar a {
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;
+}
+
+.header-navbar .hotline {
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.hotline-icon img {
+    margin: 10px 12px 0 0;
+}
+
+.hotline-call p {
+    font-size: 26px;
+    color: #3bb77e;
+}
+
+.hotline-call span {
+    font-weight: 500;
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    color: #7E7E7E;
+    display: block;
+    letter-spacing: 0.9px;
+}
+ 
+.products{
+    padding: 0 12px;
+}
+
+.popular-products{
+display: flex;
+margin: 20px 0px;
+}
+
+
+.popular-product-text{
+width: 50%;
+}
+
+.popular-product-text h3{
+    font-size: 32px;
+    font-weight: 700;
+    font-size: 32px;
+    margin-right: 30px;
+    color: #253D4E;
+    line-height: 1.2;
+}
+
+.popular-products-a{
+width: 50%;
+text-align: right;
+}
+
+.popular-products-a a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
